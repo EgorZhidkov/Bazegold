@@ -6851,7 +6851,7 @@
                 c = !1;
             if (s.length > 0 && a.length > 0 && l.length > 0 && u.length > 0 || (!s.length > 0 && W(n, "Вы не сообщили свое имя"), !a.length > 0 && W(i, "Вы не указали email"), !u.length > 0 && W(o, "Вы не указали компанию"), !l.length > 0 && W(r, "Вы не указали телефон"), c = !0), t = a, new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i).test(t) || (W(i, "Некорректный email-адрес"), c = !0), !c) { var d = { email: a, name: s, phone: l, company: u }; return $.ajax({ url: "https://api.proil.moscow/carsharing_request/", method: "POST", contentType: "application/json; charset=utf-8", data: JSON.stringify(d), headers: { "X-CSRFTOKEN": Y("csrftoken") }, datatype: "json" }).done(function(e) { "ok" == e.status ? V("Заявка успешно отправлена", !0) : V(e.message) }).fail(function() { V("Внутренняя ошибка сервера. Попробуйте позже.") }), !1 }
         }), X = new MediaElementPlayer("player", { pluginPath: G, autoplay: !0, previewMode: !0, stretching: "responsive", videoWidth: "100%", videoHeight: "100%", enableAutosize: !0 }), Z(), $(window).scroll(function() { Z() }), $("#section-1--video").click(function() { K = !0 }), $("#go-to-form").click(function() {
-            var e = $("#contacts__wrap").offset().top;
+            var e = $("#main-form").offset().top;
             q.to(window, 1.5, { scrollTo: { y: e, autoKill: !1 }, ease: o.c.easeInOut })
         })
 }]);

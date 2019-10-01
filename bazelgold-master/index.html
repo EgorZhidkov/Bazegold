@@ -447,34 +447,37 @@
         </div>
     </section>
 
-    <section id="contakt" class="contacts section-wrap">
-        <div class="contacts__wrap">
-            <h2 class="headline-two">Контакты</h2>
-            <p class="contacts-address"></p>
-            <span class="contacts-tel">2-я Звенигородская улица, дом 13, строение 37, Москва</span>
-            <span class="contacts-tel">+7 (925) 536-97-56</span>
-            <form action="#" class="contacts-form">
-                <div class="contacts-top">
-                    <div class="contacts-top__wrap">
-                        <input class="contacts-name-input" type="text" id="name-input" placeholder="Имя">
-                    </div>
-                    <div class="contacts-top__wrap">
-                        <input class="contacts-phone-input" type="text" id="phone-input" placeholder="Телефон">
-                    </div>
-                </div>
-                <div class="contacts-bottom">
-                    <input class="contacts-text" type="text" id="comment-input" placeholder="Комментарий">
-                </div>
-                <div class="btn-border">
-                    <div class="btn__border">
-                        <button class="btn-s" id="main-form__button"> 
-                   Отправить
-                  </button>
-                    </div>
-                </div>
-            </form>
+    <div class="m-column-2">
+        <div class="section-4--form" id="main-form">
+            <div class="input-container">
+                <label>Как к Вам обращаться?</label>
+                <input id="name-input" type="text" placeholder="Имя и фамилия">
+            </div>
+
+            <div class="input-container">
+                <label>Ваша компания</label>
+                <input id="company-input" type="text" placeholder="Название бренда или юрлица">
+            </div>
+
+            <div class="input-container">
+                <label>Ваш телефон</label>
+                <input id="phone-input" type="text" placeholder="Рабочий или мобильный">
+            </div>
+
+            <div class="input-container">
+                <label>Ваш e-mail</label>
+                <input id="email-input" type="text" placeholder="Корпоративная или личная почта">
+            </div>
+
+            <div class="m-button" id="main-form__button">
+                <p>Начать сотрудничество</p>
+            </div>
+
+            <p class="section-4--form--hint">
+                Оставляя заявку, Вы даете согласие на обработку Ваших персональных данных.
+            </p>
         </div>
-    </section>
+    </div>
 
 
     <section class="map">
