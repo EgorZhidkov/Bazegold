@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="css/min/bootstrap.min.css">
     <meta charset="utf-8" />
+
     <title>Название страницы</title>
 </head>
 
@@ -346,7 +347,7 @@
                     </div>
                     <div class="tab tab-earrings">111
                     </div>
-                    <div class="tab tab-rings">222
+                    <div class="tab tab-rings">322
                     </div>
                     <div class="tab tab-bracelet">333
                     </div>
@@ -434,6 +435,7 @@
                     <p class="callback-title">ОСТАВЬТЕ СВОЙ НОМЕР</p>
                     <span class="callback-desk">и мы оперативно вам позвоним!</span>
                 </div>
+
                 <label class="callback-phone" for="phone"></label>
                 <input class="callback-number" type="tel" id="phone">
                 <div class="btn-border">
@@ -451,30 +453,32 @@
             <p class="contacts-address"></p>
             <span class="contacts-tel">2-я Звенигородская улица, дом 13, строение 37, Москва</span>
             <span class="contacts-tel">+7 (925) 536-97-56</span>
-            <form action="" class="contacts-form">
+            <form action="#" class="contacts-form">
                 <div class="contacts-top">
                     <div class="contacts-top__wrap">
-                        <label class="contacts-name" for="name">Имя</label>
-                        <input class="contacts-name-input" type="text" id="name">
+
+                        <input class="contacts-name-input" type="text" name="fio" placeholder="Имя">
                     </div>
                     <div class="contacts-top__wrap">
-                        <label class="contacts-phone" for="phone">Телефон</label>
-                        <input class="contacts-phone-input" type="tel" id="phone">
+
+                        <input class="contacts-phone-input" type="tel" name="tel" placeholder="Телефон">
                     </div>
                 </div>
                 <div class="contacts-bottom">
-                    <input class="contacts-text" type="tel" id="phone">
+
+                    <input class="contacts-text" type="text" name="comment" placeholder="Комментарий">
                 </div>
                 <div class="btn-border">
                     <div class="btn__border">
-                        <button class="btn-s">
-                  Отправить
-                </button>
+                        <button type="submit" class="btn-s"> 
+                   Отправить
+                  </button>
                     </div>
                 </div>
             </form>
         </div>
     </section>
+
 
     <section class="map">
         <div class="map__wrap">
@@ -526,6 +530,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="slick/slick.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/send.js"></script>
+
 </body>
 
 </html>
