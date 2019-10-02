@@ -116,6 +116,7 @@ footer {
     display: -ms-inline-flexbox;
     display: inline-flex;
     position: relative;
+    top: 2rem;
 }
 
 .headline-two::before {
@@ -136,6 +137,12 @@ footer {
     height: 2px;
     left: 0;
     bottom: 0px;
+}
+
+.m-column-2 .headline-two::before {
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
 }
 
 .arrows {
@@ -1140,7 +1147,7 @@ footer {
     background: #fff;
     border-radius: 10px;
     padding: 40px 20px 20px 40px;
-    box-shadow: 0 0 15px rgba(56, 59, 74, .3)
+    margin: auto;
 }
 
 .section-4--form .m-button {
@@ -1239,6 +1246,10 @@ footer {
     padding-top: 2rem;
 }
 
+.m-column-2 .form-header {
+    text-align: center;
+}
+
 .contacts-tel {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1249,10 +1260,11 @@ footer {
     color: #656161!important;
     font-size: 1.8rem;
     font-weight: 400;
+    top: 4rem;
 }
 
 .m-column-2 {
-    width: 50%
+    width: 100%
 }
 
 .section-1 .m-column-2:nth-child(2) {
@@ -1286,10 +1298,6 @@ footer {
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0)
 }
 
 .m-button p {
