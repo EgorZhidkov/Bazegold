@@ -13,7 +13,11 @@
 </head>
 
 <body>
-
+    <div class="popup_window">
+        <div class="inside_container">
+            <p id="popup_text" class="error">Ошибка</p>
+        </div>
+    </div>
     <header class="header">
         <div class="header-top">
             <div class="header-top-sochial">
@@ -451,10 +455,12 @@
         <div class="form-header" id="frm_head">
             <h2 class="headline-two">Контакты</h2>
             <p class="contacts-address"></p>
+            <div class="contacts-tel" id="cnt-tel">
+                <p class="contacts-tel">2-я Звенигородская улица, дом 13, строение 37, Москва<br> +7 (925) 536-97-56
+                    <p>
+            </div>
         </div>
         <div class="section-4--form" id="main-form">
-            <span class="contacts-tel">2-я Звенигородская улица, дом 13, строение 37, Москва</span>
-            <span class="contacts-tel">+7 (925) 536-97-56</span>
             <div class="input-container">
                 <label>Как к Вам обращаться?</label>
                 <input id="name-input" type="text" placeholder="Имя и фамилия">
@@ -465,12 +471,18 @@
             </div>
 
             <div class="input-container">
-                <label>Ваш e-mail</label>
-                <input id="email-input" type="text" placeholder="Корпоративная или личная почта">
+                <label>Ваш email</label>
+                <input id="email-input" type="text" placeholder="Почта">
+            </div>
+
+            <div class="input-container">
+                <label>Ваш комментарий
+                </label>
+                <input id="comment-input" type="text" placeholder="Комментарий">
             </div>
 
             <div class="m-button" id="main-form__button">
-                <p>Начать сотрудничество</p>
+                <p>Оставить заявку</p>
             </div>
 
             <p class="section-4--form--hint">
