@@ -387,7 +387,7 @@ footer {
 }
 
 .header-top__phone {
-    font-size: 1.8rem;
+    font-size: 1.47rem;
     font-weight: 500;
     position: relative;
 }
@@ -402,20 +402,6 @@ footer {
 .header-top__phone a:hover {
     color: #232c35;
     text-decoration: none;
-}
-
-.header-top__phone::before {
-    content: '';
-    background: url(../icons/phone-icons.png) center center no-repeat;
-    background-size: cover;
-    width: 1.6rem;
-    height: 1.6rem;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    position: absolute;
-    top: 6px;
-    left: -20px;
 }
 
 .header-top-btn {
@@ -1102,9 +1088,8 @@ footer {
     background: transparent;
     border-bottom: 2px solid #fff;
     height: 100%;
-    padding-bottom: 2rem;
-    padding-left: 4rem;
-    padding-top: 3px;
+    padding-bottom: 1rem;
+    padding-left: 3.5rem;
 }
 
 .callback-number::-webkit-input-placeholder {
@@ -1241,8 +1226,8 @@ footer {
 .input-container textarea:focus,
 .input-container textarea:hover {
     outline: none;
-    color: #ff570a;
-    border-color: #ff570a
+    color: #c7b5a3;
+    border-color: #c7b5a3
 }
 
 .input-container .select:focus::-webkit-input-placeholder,
@@ -1251,7 +1236,7 @@ footer {
 .input-container input:hover::-webkit-input-placeholder,
 .input-container textarea:focus::-webkit-input-placeholder,
 .input-container textarea:hover::-webkit-input-placeholder {
-    color: #ff570a
+    color: #c7b5a3
 }
 
 .input-container .select:focus:-moz-placeholder,
@@ -1266,7 +1251,7 @@ footer {
 .input-container textarea:focus::-moz-placeholder,
 .input-container textarea:hover:-moz-placeholder,
 .input-container textarea:hover::-moz-placeholder {
-    color: #ff570a;
+    color: #c7b5a3;
     opacity: 1
 }
 
@@ -1276,7 +1261,7 @@ footer {
 .input-container input:hover:-ms-input-placeholder,
 .input-container textarea:focus:-ms-input-placeholder,
 .input-container textarea:hover:-ms-input-placeholder {
-    color: #ff570a
+    color: #c7b5a3
 }
 
 .input-container .select:focus::-ms-input-placeholder,
@@ -1285,7 +1270,7 @@ footer {
 .input-container input:hover::-ms-input-placeholder,
 .input-container textarea:focus::-ms-input-placeholder,
 .input-container textarea:hover::-ms-input-placeholder {
-    color: #ff570a
+    color: #c7b5a3
 }
 
 .input-container.hidden {
@@ -1307,7 +1292,7 @@ footer {
 }
 
 .input-container.error input {
-    border-color: #dd3113
+    border-color: #c7b5a3
 }
 
 .input-container.error .error_output {
@@ -1973,10 +1958,9 @@ footer {
     }
     .header-top-mobile__phone::before {
         content: '';
-        background: url('../icons/phone-icons.png') center center no-repeat;
         height: 24px;
         width: 24px;
-        position: absolute;
+        position: relative;
         right: 0;
     }
     .header-bottom {
